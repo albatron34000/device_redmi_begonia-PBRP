@@ -23,11 +23,13 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
+BOARD_VENDOR := redmi
 PRODUCT_DEVICE := begonia
 PRODUCT_NAME := omni_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
+TARGET_VENDOR := redmi
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
