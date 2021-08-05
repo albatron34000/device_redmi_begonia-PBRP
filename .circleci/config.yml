@@ -4,8 +4,8 @@ jobs:
    docker:
       - image: ubuntu:18.04
    environment:
-      GIT_EMAIL: 'meshekharbehera613@gmail.com'
-      GIT_NAME: 'Flamefusion'
+      GIT_EMAIL: 'albatron342016@gmail.com'
+      GIT_NAME: 'albatron34000'
       VERSION: '3.0'
       PBRP_MANIFEST: 'android-9.0'
       VENDOR: 'redmi'
